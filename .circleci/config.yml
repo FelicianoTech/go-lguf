@@ -1,0 +1,19 @@
+version: 2.1
+orbs:
+  go: circleci/go@0.2
+
+workflows:
+  main:
+    jobs:
+      - build
+
+jobs:
+  build:
+    executor:
+      name: go/default
+      tag: "1.12"
+    steps:
+      - checkout
+      - go/load-cache
+      - go/test
+      - go/save-cache
