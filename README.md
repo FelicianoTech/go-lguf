@@ -1,4 +1,11 @@
-# LG UltraFine Go Library [![CircleCI Build Status](https://circleci.com/gh/felicianotech/go-lguf.svg?style=shield)](https://circleci.com/gh/felicianotech/go-lguf) [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/felicianotech/go-lguf/master/LICENSE)
+# Deprecated
+
+Hey folks. I've deprecated this project in favor of a better solution.
+You can find this solution explained [on my blog](https://www.feliciano.tech/blog/lg-ultrafine-brightness-linux/).
+
+---
+
+## LG UltraFine Go Library [![CircleCI Build Status](https://circleci.com/gh/felicianotech/go-lguf.svg?style=shield)](https://circleci.com/gh/felicianotech/go-lguf) [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/felicianotech/go-lguf/master/LICENSE)
 
 `go-lguf` is a Go library that interfaces with the LG UltraFine 4K monitor in order to adjust brightness from Linux.
 This simple library is needed because this monitor was designed specifically for Apple computers and thus has no physical buttons.
